@@ -1,11 +1,15 @@
 ## How to run
 
 In main folder:
+
 npm install
+
 PORT=3001 node bin/www
 
 In contacts-book-app:
+
 npm install
+
 npm start
 
 ## Search Logic
