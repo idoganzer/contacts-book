@@ -1,0 +1,8 @@
+.page-item {
+  padding: 20px;
+}
+
+.page-item-active {
+  padding: 20px;
+  font-weight: bold;
+}

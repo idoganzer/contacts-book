@@ -1,0 +1,33 @@
+.contact-details-container > * {
+  margin: 10px !important;
+}
+
+.contact-details-center {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.contact-input {
+  width: 300px;
+}
+
+.react-tel-input {
+  width: auto;
+}
+
+.contact-button {
+  margin-right: 100px;
+  padding: 10px;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.contact-input-container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-around;
+}
