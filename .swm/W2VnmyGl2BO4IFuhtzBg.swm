@@ -1,0 +1,40 @@
+{
+    "id": "W2VnmyGl2BO4IFuhtzBg",
+    "name": "This is doc",
+    "content": [
+        {
+            "type": "text",
+            "text": "aaaa blame Canada"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " var router = express.Router();",
+                " ",
+                " router.get('/', async function(req, res) {",
+                "*  let db = await database.open('./db/contactBook.db')",
+                "*    .then(db => {",
+                "*      console.log('Connected to the SQlite database.');",
+                "*      return db;",
+                "*    })",
+                "*    .catch(err => {",
+                "*      console.error(err.message);",
+                "*    })",
+                " ",
+                "   const page = req.query.page ? req.query.page : 0;",
+                "   const limit = req.query.limit ? req.query.limit : 10;"
+            ],
+            "firstLineNumber": 3,
+            "path": "routes/contacts.js",
+            "comments": []
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.5.4-0",
+        "file_blobs": {
+            "routes/contacts.js": "b0533b29741345da028dca5676db5f5fd938ca2b"
+        }
+    }
+}
